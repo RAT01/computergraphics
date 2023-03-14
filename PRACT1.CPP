@@ -8,4 +8,6 @@ int main()
   initgraph (&gd,&gm,"C:\\TURBOC3\\BGI");
   cout<<"line : " <<endl;
   line(50,50,200,50);
+  getch();
+  closegraph();
 }
